@@ -1,24 +1,88 @@
 body{ 
     text-align: center;
-    background-color: black;
-    color: antiquewhite;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    
+    
+   
 } 
 header{
-    background-image:url("images/Developer.png") ;
-    height: 30vh;
+    font-size: 80px;
+    text-align:center;
+    vertical-align:baseline;
+    height: 500px;
+    background-image:url("images/developpeur-logiciel.jpg") ;
     background-size: cover;
+    border-radius: 20px;
+    
 }
 
-img{
-    width: 200px;
+
+
     
 
+
+img{
+    width: 120px; font-display: auto;
 }
 
 p{
-    text-align: left;
-
+    text-align:left; size-adjust: 5px;
 }
-
-
+.rubriqueWAMP{
+    
+    border-radius: 20px;
+    background-color: #9f3880;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 20px;
+ }
+.rubriqueWORDPRESS{
+    border-radius: 20px;
+    background-color: #009ed7;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 20px;
+}
+.rubriqueFILEZILLA{
+    border-radius: 20px;
+    background-color: #af4141;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 20px;
+}
+.rubriqueFIGMA{
+    border-radius: 20px;
+    background-color: #8d639d;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 20px;
+}
+.rubriqueGIT{
+    border-radius: 20px;
+    background-color: #372215;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 20px;
+}
+.rubriqueVSCODE{
+    border-radius: 20px;
+    background-color: #388aa7;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 20px;
+}
+.rubriqueNODE{
+    border-radius: 20px;
+    background-color: #629952;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 20px;
+}
+.rubriqueHTTP{
+    border-radius: 20px;
+    background-color: #557683;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 20px;
+}
